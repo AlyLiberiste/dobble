@@ -1,0 +1,116 @@
+/*body{
+    padding-top: 50px;
+}*/
+
+header{
+    background-image: linear-gradient(#04519b , #044687 60%, #033769);
+    color:#fff;
+    min-height: 80px;
+    padding-top: 15px;
+}
+header form{
+    float: right;
+}
+header .logo{
+    float: left;
+}
+.panel-heading{
+    background-image: linear-gradient(#04519b , #044687 60%, #033769);
+    color: white !important;
+}
+
+.bubble{
+    position: relative;
+    width: 580px;    
+    min-height: 65px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    left: 130px;
+    
+}
+
+
+.bubble :after{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #fff;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -15px;
+    left: -15px;
+    top: 50%;
+}
+.bubble :before{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #ccc;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -15px;
+    left: -16px;
+    top: 50%;
+}
+
+.post-action{
+    margin: 5px;
+}
+
+.comment-form .form-group{
+    width: 90%;
+}
+.comment-form input[type='text']{
+    width: 100%;
+}
+.comment{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 0;
+    overflow: auto;
+    width: 90%;
+}
+
+.comment-avatar img{
+    width: 40px;
+    margin-right: 5px;
+    
+}
+
+.friends li{
+    list-style: none;
+    padding: 3px 5px;
+    display: inline;
+    float: left;
+}
+.friends img{
+    width: 55px;
+}
+
+
+
+footer{
+    background-color:#f4f4f4;
+    height: 90px;
+    text-align: center;
+    color: #77b5f0;
+    font-family: serif;
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 7px solid #68aae7;
+}
+
+    @media(min-width: 991px){
+    .members p{
+        padding-top: 30px;
+    }
+}
+
+
