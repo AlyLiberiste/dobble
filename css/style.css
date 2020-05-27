@@ -93,6 +93,15 @@ header .logo{
 .friends img{
     width: 55px;
 }
+.members .member-row{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.members img{
+    margin-bottom: 5px;
+}
+
 
 
 
