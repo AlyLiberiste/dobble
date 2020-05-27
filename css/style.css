@@ -101,6 +101,17 @@ header .logo{
 .members img{
     margin-bottom: 5px;
 }
+.groups img{
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+.groups-item{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+}
 
 
 
