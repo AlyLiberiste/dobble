@@ -114,7 +114,24 @@ header .logo{
 }
 
 
+.photos{
+    margin: 0;
+    padding: o;
+}
+.photos li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 23px;
+}
+.photos img{
+    width: 150%;
+}
 
+.photo{
+    color: crimson;
+   
+}
 
 footer{
     background-color:#f4f4f4;
